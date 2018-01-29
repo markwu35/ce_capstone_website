@@ -1,3 +1,17 @@
 .about-image {
-	max-width: 100%;
+	width: 100%;
+}
+
+.course_section {
+	margin-top: 20px;
+}
+
+.sponsor-img {
+	width: 100%;
+	max-width: 500px;
+	text-align: center;
+}
+
+.header-img {
+	width: 100%;
 }

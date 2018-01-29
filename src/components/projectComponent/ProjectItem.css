@@ -1,7 +1,25 @@
-img {
-	max-width: 100%;
+.card-img {
+	max-height: 100%;
+	opacity: 0.5;
+	height: 178px;
 }
 
-.card-title {
-	color: black !important;
+.card {
+	min-height: 310px;
+	padding: 5px;
+	max-width: 487px;
+}
+
+@media screen and (max-width: 1201px) {
+    .card {
+        min-width: 830px;
+        max-height: 90%;
+    }
+    .card-img {
+				height: auto;
+				}
+}
+
+.card-content {
+	height: 200px;
 }

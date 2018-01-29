@@ -13,8 +13,10 @@ class App extends Component {
     return (
       <div className="App">
       <Navbar />
-        <h2>UCSB Computer Engineering</h2>
-        <h3>Senior Capstone Projects</h3>
+        <h2>Senior Capstone Projects</h2>
+
+        
+        
         <div className="container">
           <Main />
         </div>

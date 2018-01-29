@@ -13,3 +13,9 @@ body {
 .header-img {
   text-align: center;
 }
+
+dt {
+  text-align: right;
+  font-weight: bold;
+}
+
