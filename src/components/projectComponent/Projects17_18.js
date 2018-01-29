@@ -1,11 +1,20 @@
 import React, { Component } from 'react';
 import ProjectItem from './ProjectItem';
+
 import hyperloopii from './../../img/hyperloopii.PNG';
 import flir from './../../img/flir.PNG';
 import gestur from './../../img/gestur.PNG';
 import ir_hub from './../../img/ir_hub.PNG';
 import ostracam from './../../img/ostracam.PNG';
 import sonos from './../../img/sonos.PNG';
+
+import spot from './../../img/spot.PNG';
+import tersiascope from './../../img/tersiascope.PNG';
+import deepvision from './../../img/deepvision.PNG';
+import walle from './../../img/walle.PNG';
+import hyperloop17 from './../../img/hyperloop2017.PNG';
+import gauchohawk from './../../img/gauchohawk.PNG';
+import hoverhand from './../../img/hoverhand.PNG';
 
 import './Projects.css';
 
@@ -21,7 +30,7 @@ class Projects17_18 extends Component {
     this.setState({project: [
       {
         title: 'SPOT',
-        imgName: flir,
+        imgName: spot,
         members: ["Bryan Lavin-Parmenter",
         "Brandon Pon",
         "Neil O’Bryan",
@@ -31,7 +40,7 @@ class Projects17_18 extends Component {
       },
       {
         title: 'TersiaScope',
-        imgName: gestur,
+        imgName: tersiascope,
         members: ["Ryan Kaveh",
         "Kyle Carson",
         "Jon Young"],
@@ -39,7 +48,7 @@ class Projects17_18 extends Component {
       },
       {
         title: 'Deep Vision',
-        imgName: hyperloopii,
+        imgName: deepvision,
         members: ["Yang Ren",
         "Tristan Seroff",
         "Asitha Kaduwela",
@@ -48,7 +57,7 @@ class Projects17_18 extends Component {
       },
       {
         title: 'Wall-E',
-        imgName: ir_hub,
+        imgName: walle,
         members: ["Nathan Bradley",
         "Jesus Castro",
         "Jeremiah Prousalis"],
@@ -56,7 +65,7 @@ class Projects17_18 extends Component {
       },
       {
         title: 'Gaucho Hawk',
-        imgName: ostracam,
+        imgName: gauchohawk,
         members: ["Paul Killam",
         "Christina Lim",
         "Oliver Thio"],
@@ -64,7 +73,7 @@ class Projects17_18 extends Component {
       },
       {
         title: 'Hover Hand',
-        imgName: sonos,
+        imgName: hoverhand,
         members: ["Brian Sandler",
         "Brenden Fujishige",
         "Marcellis Carr-Barfield",
@@ -76,7 +85,7 @@ class Projects17_18 extends Component {
       },
       {
         title: 'Hyperloop III',
-        imgName: ostracam,
+        imgName: hyperloop17,
         members: ["Paul Killam",
         "Christina Lim",
         "Oliver Thio"],

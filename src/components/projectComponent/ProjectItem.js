@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import MemberItem from './MemberItem';
+import FileItem from './FileItem';
 import './ProjectItem.css';
 
 import aaron_chang from './../../img/aaron_chang.jpg';
@@ -36,7 +37,8 @@ class ProjectItem extends Component {
   constructor() {
     super();
     this.state = {
-      member: []
+      member: [],
+      file: []
     }
   }
 
@@ -181,7 +183,134 @@ class ProjectItem extends Component {
         year: "16_17"
       }
 
-      ]})
+      ],
+      file: [{
+      	name: "Overview Poster",
+      	projectId: 0,
+      	link: "http://www.ece.ucsb.edu/Faculty/Johnson/ECE189/posters/flir_overview.pdf"
+      },
+      {
+      	name: "Technical Poster",
+      	projectId: 0,
+      	link: "http://www.ece.ucsb.edu/Faculty/Johnson/ECE189/posters/flir_technical.pdf"
+      },
+      {
+      	name: "IDR",
+      	projectId: 0,
+      	link: "http://www.ece.ucsb.edu/Faculty/Johnson/ECE189/IDR/FLIR.pdf"
+      },
+      {
+      	name: "CDR",
+      	projectId: 0,
+      	link: "http://www.ece.ucsb.edu/Faculty/Johnson/ECE189/CDR/FLIRCDR.pdf"
+      },
+      {
+      	name: "Final Presentation",
+      	projectId: 0,
+      	link: "http://www.ece.ucsb.edu/Faculty/Johnson/ECE189/final/flir.pdf"
+      },
+      {
+      	name: "Poster",
+      	projectId: 1,
+      	link: "http://www.ece.ucsb.edu/Faculty/Johnson/ECE189/posters/gestur.pdf"
+      },
+      {
+      	name: "IDR",
+      	projectId: 1,
+      	link: "http://www.ece.ucsb.edu/Faculty/Johnson/ECE189/IDR/Gestur.pdf"
+      },
+      {
+      	name: "CDR",
+      	projectId: 1,
+      	link: "http://www.ece.ucsb.edu/Faculty/Johnson/ECE189/CDR/GesturCDR.pdf"
+      },
+      {
+      	name: "Final Presentation",
+      	projectId: 1,
+      	link: "http://www.ece.ucsb.edu/Faculty/Johnson/ECE189/final/gestur.pdf"
+      },
+      {
+      	name: "Poster",
+      	projectId: 2,
+      	link: "http://www.ece.ucsb.edu/Faculty/Johnson/ECE189/posters/hyperloop2.pdf"
+      },
+      {
+      	name: "IDR",
+      	projectId: 2,
+      	link: "http://www.ece.ucsb.edu/Faculty/Johnson/ECE189/IDR/Hyperloop2.pdf"
+      },
+      {
+      	name: "CDR",
+      	projectId: 2,
+      	link: "http://www.ece.ucsb.edu/Faculty/Johnson/ECE189/CDR/Hyperloop2CDR.pdf"
+      },
+      {
+      	name: "Final Presentation",
+      	projectId: 2,
+      	link: "http://www.ece.ucsb.edu/Faculty/Johnson/ECE189/final/hyperloop2.pdf"
+      },
+      {
+      	name: "Poster",
+      	projectId: 3,
+      	link: "http://www.ece.ucsb.edu/Faculty/Johnson/ECE189/posters/irhub.pdf"
+      },
+      {
+      	name: "IDR",
+      	projectId: 3,
+      	link: "http://www.ece.ucsb.edu/Faculty/Johnson/ECE189/IDR/IRHub.pdf"
+      },
+      {
+      	name: "CDR",
+      	projectId: 3,
+      	link: "http://www.ece.ucsb.edu/Faculty/Johnson/ECE189/CDR/IRHubCDR.pdf"
+      },
+      {
+      	name: "Final Presentation",
+      	projectId: 3,
+      	link: "http://www.ece.ucsb.edu/Faculty/Johnson/ECE189/final/irhub.pdf"
+      },
+      {
+      	name: "Poster",
+      	projectId: 4,
+      	link: "http://www.ece.ucsb.edu/Faculty/Johnson/ECE189/posters/ostracam2.pdf"
+      },
+      {
+      	name: "IDR",
+      	projectId: 4,
+      	link: "http://www.ece.ucsb.edu/Faculty/Johnson/ECE189/IDR/OstraCam2.pdf"
+      },
+      {
+      	name: "CDR",
+      	projectId: 4,
+      	link: "http://www.ece.ucsb.edu/Faculty/Johnson/ECE189/CDR/OstraCam2CDR.pdf"
+      },
+      {
+      	name: "Final Presentation",
+      	projectId: 4,
+      	link: "http://www.ece.ucsb.edu/Faculty/Johnson/ECE189/final/ostracam2.pdf"
+      },
+      {
+      	name: "Poster",
+      	projectId: 5,
+      	link: "http://www.ece.ucsb.edu/Faculty/Johnson/ECE189/posters/sonoscom.pdf"
+      },
+      {
+      	name: "IDR",
+      	projectId: 5,
+      	link: "http://www.ece.ucsb.edu/Faculty/Johnson/ECE189/IDR/SONOS.pdf"
+      },
+      {
+      	name: "CDR",
+      	projectId: 5,
+      	link: "http://www.ece.ucsb.edu/Faculty/Johnson/ECE189/CDR/SONOS2CDR.pdf"
+      },
+      {
+      	name: "Final Presentation",
+      	projectId: 5,
+      	link: "http://www.ece.ucsb.edu/Faculty/Johnson/ECE189/final/sonoscom.pdf"
+      },
+      ]
+    })
   }
 
   render() {
@@ -192,6 +321,18 @@ class ProjectItem extends Component {
 				if (this.props.project.projectId === member.projectId) {
 					return (
 						<MemberItem key={member.name} member={member} />
+					);
+				}
+			});
+		}
+
+		let fileItems;
+		if(this.state.file){
+			fileItems = this.state.file.map(file => {
+				
+				if (this.props.project.projectId === file.projectId) {
+					return (
+						<FileItem key={file.name} file={file} />
 					);
 				}
 			});
@@ -216,8 +357,7 @@ class ProjectItem extends Component {
 						</div>
 
             <div className="card-action">
-              <a href="#">Poster 1</a>
-              <a href="#">CDR</a>
+            	{fileItems}
             </div>
           </div>
         </div>

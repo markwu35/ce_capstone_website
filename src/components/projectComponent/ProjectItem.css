@@ -1,18 +1,18 @@
 .card-img {
 	max-height: 100%;
 	opacity: 0.5;
-	height: 178px;
+	height: 225px;
 }
 
 .card {
 	min-height: 310px;
 	padding: 5px;
-	max-width: 487px;
+/*	max-width: 487px;*/
 }
 
 @media screen and (max-width: 1201px) {
     .card {
-        min-width: 830px;
+        min-width: 829px;
         max-height: 90%;
     }
     .card-img {
@@ -22,4 +22,9 @@
 
 .card-content {
 	height: 200px;
+	padding: 15px !important;
+}
+
+.card-action {
+	min-height: 77px;
 }

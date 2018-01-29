@@ -12,6 +12,12 @@ import mentorGraphics from './../img/mentor-hr.gif';
 import nxp from './../img/nxp-logo.png';
 import rp from './../img/rapidprototypes.gif';
 import sunstone from './../img/topSunstone.png';
+import nasa from './../img/nasa.png';
+import dji from './../img/dji.png';
+import nvidia from './../img/nvidia.png';
+import av from './../img/av.png';
+import at from './../img/ai.png';
+
 import "./About.css";
 
 const About = () => (
@@ -72,6 +78,29 @@ const About = () => (
 					<img className="sponsor-img" src={laritech} />
 				</a></div>
 			</div>
+
+			<div className="row">
+				<div className="col s6"><a target="_blank" href="https://www.nasa.gov">
+					<img className="sponsor-img" src={nasa} />
+				</a></div>
+				<div className="col s6"><a target="_blank" href="https://www.dji.com">
+					<img className="sponsor-img" src={dji} />
+				</a></div>
+			</div>
+			<div className="row">
+				<div className="col s6"><a target="_blank" href="www.nvidia.com/page/home.html">
+					<img className="sponsor-img" src={nvidia} />
+				</a></div>
+				<div className="col s6"><a target="_blank" href="https://www.avinc.com">
+					<img className="sponsor-img" src={av} />
+				</a></div>
+			</div>
+			<div className="row">
+				<div className="col s6"><a target="_blank" href="https://www.arvengtechnologies.com">
+					<img className="sponsor-img" src={at} />
+				</a></div>
+			</div>
+
 		</div>
 
 	</div>
