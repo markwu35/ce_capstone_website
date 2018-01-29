@@ -7,7 +7,7 @@
 .card {
 	min-height: 310px;
 	padding: 5px;
-/*	max-width: 487px;*/
+	max-width: 470px;
 }
 
 @media screen and (max-width: 1201px) {
