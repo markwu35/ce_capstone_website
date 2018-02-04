@@ -10,14 +10,18 @@ class Navbar extends Component {
     return (
     	<div>
 	    	<ul id="dropdown1" className="dropdown-content">
+				  <li><Link to="/Projects17_18">17-18</Link></li>
+				  <li className="divider"></li>
 				  <li><Link to="/Projects16_17">16-17</Link></li>
 				  <li className="divider"></li>
-				  <li><Link to="/Projects17_18">17-18</Link></li>
+				  <li><a href="http://www.ce.ucsb.edu/undergrad/sr-projects/event-2016/">15-16</a></li>
 				</ul>
 	    	<ul id="dropdown2" className="dropdown-content">
+				  <li><Link to="/Projects17_18">17-18</Link></li>
+				  <li className="divider"></li>
 				  <li><Link to="/Projects16_17">16-17</Link></li>
 				  <li className="divider"></li>
-				  <li><Link to="/Projects17_18">17-18</Link></li>
+				  <li><a href="http://www.ce.ucsb.edu/undergrad/sr-projects/event-2016/">15-16</a></li>
 				</ul>
 			  <nav className="nav-extended blue lighten-5">
 			    <div className="nav-wrapper">

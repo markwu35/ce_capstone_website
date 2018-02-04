@@ -33,6 +33,55 @@ import seyed_mohammad_ghazitabrizi from './../../img/chip_placeholder.jpg';
 import richard_wei from './../../img/richard_wei.jpg';
 import subhodeep_choudhury from './../../img/chip_placeholder.jpg';
 
+//SPOT id: 6
+import bryan_lavin_parmenter from './../../img/bryan_lavin_parmenter.jpg';
+import brandon_pon from './../../img/brandon_pon.jpg';
+import neil_o_bryan from './../../img/neil_o_bryan.jpg';
+import saurabh_gupta from './../../img/saurabh_gupta.jpg';
+
+//TersiaScope   id: 7
+import john_bowman from './../../img/john_bowman.jpg';
+import devon_porcher from './../../img/devon_porcher.jpg';
+import brian_young from './../../img/brian_young.jpg';
+import timothy_kwong from './../../img/timothy_kwong.jpg';
+import trevor_hecht from './../../img/trevor_hecht.jpg';
+
+//Deep Vision   id: 8
+import jenny_zheng from './../../img/chip_placeholder.jpg';
+import chenghao_jiang from './../../img/chenghao_jiang.jpg';
+import terry_xie from './../../img/terry_xie.jpg';
+import charlie_xu from './../../img/chip_placeholder.jpg';
+
+//Wall-E        id: 9
+import veena_chandran from './../../img/veena_chandran.jpg';
+import karthik_kribakaran from './../../img/karthik_kribakaran.jpg';
+import vincent_wang from './../../img/vincent_wang.jpg';
+import wesley_peery from './../../img/wesley_peery.jpg';
+import franklin_tang from './../../img/franklin_tang.jpg';
+import karli_yokotake from './../../img/karli_yokotake.jpg';
+
+//Gaucho Hawk   id: 10
+import jack_zang from './../../img/jack_zang.jpg';
+import yesh_ramesh from './../../img/yesh_ramesh.jpg';
+import vikram_sharma from './../../img/vikram_sharma.jpg';
+import richard_young from './../../img/richard_young.jpg';
+import kurt_madland from './../../img/kurt_madland.jpg';
+import shaoyi_zhang from './../../img/shaoyi_zhang.jpg';
+
+//Hover Hand    id: 11
+import steven_fields from './../../img/chip_placeholder.jpg';
+import colin_garrett from './../../img/colin_garrett.jpg';
+import miclos_lobins from './../../img/miclos_lobins.jpg';
+import zach_meyer from './../../img/zach_meyer.jpg';
+import austin_dorotheo from './../../img/austin_dorotheo.jpg';
+
+//Hyperloop III id: 12
+import cam_bijan from './../../img/cam_bijan.jpg';
+import dylan_vanmali from './../../img/dylan_vanmali.jpg';
+import alex_jun from './../../img/alex_jun.jpg';
+import mark_wu from './../../img/mark_wu.jpg';
+import david_donaldson from './../../img/david_donaldson.jpg';
+
 class ProjectItem extends Component {
   constructor() {
     super();
@@ -177,10 +226,220 @@ class ProjectItem extends Component {
         year: "16_17"
       },
       {
+        name:"Bryan Lavin-Parmenter",
+        projectId: 6,
+        imgName: bryan_lavin_parmenter,
+        year: "17_18"
+      },
+      {
+        name:"Brandon Pon",
+        projectId: 6,
+        imgName: brandon_pon,
+        year: "17_18"
+      },
+      {
+        name:"Neil O’Bryan",
+        projectId: 6,
+        imgName: neil_o_bryan,
+        year: "17_18"
+      },
+      {
         name:"Subhodeep Choudhury",
         projectId: 5,
         imgName: subhodeep_choudhury,
         year: "16_17"
+      },
+      {
+        name:"Saurabh Gupta",
+        projectId: 6,
+        imgName: saurabh_gupta,
+        year: "17_18"
+      },
+      {
+        name:"John Bowman",
+        projectId: 7,
+        imgName: john_bowman,
+        year: "17_18"
+      },
+      {
+        name:"Devon Porcher",
+        projectId: 7,
+        imgName: devon_porcher,
+        year: "17_18"
+      },
+      {
+        name:"Brian Young",
+        projectId: 7,
+        imgName: brian_young,
+        year: "17_18"
+      },
+      {
+        name:"Timothy Kwong",
+        projectId: 7,
+        imgName: timothy_kwong,
+        year: "17_18"
+      },
+      {
+        name:"Trevor Hecht",
+        projectId: 7,
+        imgName: trevor_hecht,
+        year: "17_18"
+      },
+      {
+        name:"Jenny Zheng",
+        projectId: 8,
+        imgName: jenny_zheng,
+        year: "17_18"
+      },
+      {
+        name:"Chenghao Jiang",
+        projectId: 8,
+        imgName: chenghao_jiang,
+        year: "17_18"
+      },
+      {
+        name:"Terry Xie",
+        projectId: 8,
+        imgName: terry_xie,
+        year: "17_18"
+      },
+      {
+        name:"Charlie Xu",
+        projectId: 8,
+        imgName: charlie_xu,
+        year: "17_18"
+      },
+      {
+        name:"Veena Chandran",
+        projectId: 9,
+        imgName: veena_chandran,
+        year: "17_18"
+      },
+      {
+        name:"Karthik Kribakaran",
+        projectId: 9,
+        imgName: karthik_kribakaran,
+        year: "17_18"
+      },
+      {
+        name:"Vincent Wang",
+        projectId: 9,
+        imgName: vincent_wang,
+        year: "17_18"
+      },
+      {
+        name:"Wesley Peery",
+        projectId: 9,
+        imgName: wesley_peery,
+        year: "17_18"
+      },
+      {
+        name:"Franklin Tang",
+        projectId: 9,
+        imgName: franklin_tang,
+        year: "17_18"
+      },
+      {
+        name:"Karli Yokotake",
+        projectId: 9,
+        imgName: karli_yokotake,
+        year: "17_18"
+      },
+      {
+        name:"Jack Zang",
+        projectId: 10,
+        imgName: jack_zang,
+        year: "17_18"
+      },
+      {
+        name:"Yesh Ramesh",
+        projectId: 10,
+        imgName: yesh_ramesh,
+        year: "17_18"
+      },
+      {
+        name:"Vikram Sharma",
+        projectId: 10,
+        imgName: vikram_sharma,
+        year: "17_18"
+      },
+      {
+        name:"Richard Young",
+        projectId: 10,
+        imgName: richard_young,
+        year: "17_18"
+      },
+      {
+        name:"Kurt Madland",
+        projectId: 10,
+        imgName: kurt_madland,
+        year: "17_18"
+      },
+      {
+        name:"Shaoyi Zhang",
+        projectId: 10,
+        imgName: shaoyi_zhang,
+        year: "17_18"
+      },
+      {
+        name:"Steven Fields",
+        projectId: 11,
+        imgName: steven_fields,
+        year: "17_18"
+      },
+      {
+        name:"Colin Garrett",
+        projectId: 11,
+        imgName: colin_garrett,
+        year: "17_18"
+      },
+      {
+        name:"Miclos Lobins",
+        projectId: 11,
+        imgName: miclos_lobins,
+        year: "17_18"
+      },
+      {
+        name:"Zach Meyer",
+        projectId: 11,
+        imgName: zach_meyer,
+        year: "17_18"
+      },
+      {
+        name:"Austin Dorotheo",
+        projectId: 11,
+        imgName: austin_dorotheo,
+        year: "17_18"
+      },
+      {
+        name:"Cameron Bijan",
+        projectId: 12,
+        imgName: cam_bijan,
+        year: "17_18"
+      },
+      {
+        name:"Dylan Vanmali",
+        projectId: 12,
+        imgName: dylan_vanmali,
+        year: "17_18"
+      },
+      {
+        name:"Alex Jun",
+        projectId: 12,
+        imgName: alex_jun,
+        year: "17_18"
+      },
+      {
+        name:"Mark Wu",
+        projectId: 12,
+        imgName: mark_wu,
+        year: "17_18"
+      },
+      {
+        name:"David Donaldson",
+        projectId: 12,
+        imgName: david_donaldson,
+        year: "17_18"
       }
 
       ],
@@ -339,28 +598,24 @@ class ProjectItem extends Component {
 		}
 
     return (
-        <div className="col xl6">
           <div className="card blue-grey darken-1">
             <div className="card-image">
               <img className="card-img" src={this.props.project.imgName} />
               <span className="card-title">{this.props.project.title}</span>
             </div>
             <div className="card-content white-text">
-            	<span className="card-title activator grey-text text-darken-4">Members<i className="fa fa-ellipsis-v right"></i></span>
+            	<span className="card-title grey-text text-darken-4">Members</span>
               <p>{memberItems}</p>
+              <br></br>
+              <span className="card-title grey-text text-darken-4">Description</span>
+              <p className="text_left">{this.props.project.description}</p>
             </div>
 
-						<div className="card-reveal">
-						  <span className="card-title grey-text text-darken-4">Description<i className="fa fa-times right"></i></span>
-						  <p>{this.props.project.description}</p>
-						  <span className="card-title grey-text text-darken-4">Sponsors</span>
-						</div>
-
             <div className="card-action">
+              <span className="card-title grey-text text-darken-4">Resources</span><br></br>
             	{fileItems}
             </div>
           </div>
-        </div>
     );
   }
 }

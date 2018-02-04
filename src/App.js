@@ -13,7 +13,7 @@ class App extends Component {
     return (
       <div className="App">
       <Navbar />
-        <h2>Senior Capstone Projects</h2>
+        <h4>Senior Capstone Projects</h4>
 
         
         

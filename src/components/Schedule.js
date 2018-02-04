@@ -3,9 +3,9 @@ import "./Schedule.css";
 
 const Schedule = () => (
 	<div id="course_milestone">
-		<h3>Course Milestone</h3>
+		<h5>Course Milestone</h5>
 		<div className="inline-grid">
-		<h4>Fall Quarter</h4>
+		<h6>Fall Quarter</h6>
 		<ul className="timeline">
 		  <li className="tl-item">
 		    <div className="tl-icon"></div>
@@ -50,7 +50,7 @@ const Schedule = () => (
 		</ul>
 		</div>
 		<div className="inline-grid">
-		<h4>Winter Quarter</h4>
+		<h6>Winter Quarter</h6>
 		<ul className="timeline">
 		  <li className="tl-item">
 		    <div className="tl-icon"></div>
@@ -99,7 +99,7 @@ const Schedule = () => (
 		</ul>	
 		</div>
 		<div className="inline-grid">
-		<h4>Spring Quarter</h4>
+		<h6>Spring Quarter</h6>
 		<ul className="timeline">
 		  <li className="tl-item">
 		    <div className="tl-icon"></div>

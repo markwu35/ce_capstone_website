@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-//import './ProjectItem.css';
+import './ProjectItem.css';
 
 class MemberItem extends Component {
   render() {

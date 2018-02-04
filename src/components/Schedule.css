@@ -75,10 +75,14 @@
 }
 
 .inline-grid {
-  display: inline-grid;
-  margin-left: 7%;
+  margin-top: 10px;
+  display: flow-root;
 }
 
 h4 {
+  text-align: center;
+}
+
+h6 {
   text-align: center;
 }
