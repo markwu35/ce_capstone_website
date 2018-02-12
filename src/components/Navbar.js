@@ -23,7 +23,7 @@ class Navbar extends Component {
 				  <li className="divider"></li>
 				  <li><a href="http://www.ce.ucsb.edu/undergrad/sr-projects/event-2016/">15-16</a></li>
 				</ul>
-			  <nav className="nav-extended blue lighten-5">
+			  <nav className="nav-extended">
 			    <div className="nav-wrapper">
 			      <a href="http://www.ece.ucsb.edu/" className="brand-logo black-text"><img className="nav-logo" src={logo} /></a>
 			      <a href="#" data-activates="mobile-demo" className="button-collapse black-text"><i className="fa fa-bars"></i></a>

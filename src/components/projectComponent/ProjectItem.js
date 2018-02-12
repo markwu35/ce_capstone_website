@@ -160,6 +160,12 @@ class ProjectItem extends Component {
         year: "16_17"
       },
       {
+        name:"Jesus Diera",
+        projectId: 2,
+        imgName: jesus_diera,
+        year: "16_17"
+      },
+      {
         name:"Nathan Bradley",
         projectId: 3,
         imgName: nathan_bradley,
