@@ -4,7 +4,7 @@ import './Projects.css';
 class FileItem extends Component {
   render() {
     return (
-      <a className="inline-block" href={this.props.file.link}>{this.props.file.name}</a>
+      <a className="inline-block" target="_blank" href={this.props.file.link}>{this.props.file.name}</a>
     );
   }
 }

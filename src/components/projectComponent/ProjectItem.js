@@ -47,10 +47,10 @@ import timothy_kwong from './../../img/timothy_kwong.jpg';
 import trevor_hecht from './../../img/trevor_hecht.jpg';
 
 //Deep Vision   id: 8
-import jenny_zheng from './../../img/chip_placeholder.jpg';
+import jenny_zheng from './../../img/Zeng_EE.jpg';
 import chenghao_jiang from './../../img/chenghao_jiang.jpg';
 import terry_xie from './../../img/terry_xie.jpg';
-import charlie_xu from './../../img/chip_placeholder.jpg';
+import charlie_xu from './../../img/Xu_CE.jpg';
 
 //Wall-E        id: 9
 import veena_chandran from './../../img/veena_chandran.jpg';
@@ -81,6 +81,46 @@ import dylan_vanmali from './../../img/dylan_vanmali.jpg';
 import alex_jun from './../../img/alex_jun.jpg';
 import mark_wu from './../../img/mark_wu.jpg';
 import david_donaldson from './../../img/david_donaldson.jpg';
+
+import flirOP from "./../../media/flir_overview.pdf";
+import flirTP from "./../../media/flir_technical.pdf";
+import flirIDR from "./../../media/FLIRIDR.pdf";
+import flirCDR from "./../../media/FLIRCDR.pdf";
+import flirFP from "./../../media/flirFP.pdf";
+
+import gesturP from "./../../media/gestur_poster.pdf";
+import gesturIDR from "./../../media/GesturIDR.pdf";
+import gesturCDR from "./../../media/GesturCDR.pdf";
+import gesturFP from "./../../media/gesturFP.pdf";
+
+import hyperloop2P from "./../../media/hyperloop2_poster.pdf";
+import hyperloop2IDR from "./../../media/Hyperloop2IDR.pdf";
+import hyperloop2CDR from "./../../media/Hyperloop2CDR.pdf";
+import hyperloop2FP from "./../../media/hyperloop2FP.pdf";
+
+import irhubP from "./../../media/irhub_poster.pdf";
+import irhubIDR from "./../../media/IRHubIDR.pdf";
+import irhubCDR from "./../../media/IRHubCDR.pdf";
+import irhubFP from "./../../media/irhubFP.pdf";
+
+import ostracam2P from "./../../media/ostracam2_poster.pdf";
+import ostracam2IDR from "./../../media/OstraCam2IDR.pdf";
+import ostracam2CDR from "./../../media/OstraCam2CDR.pdf";
+import ostracam2FP from "./../../media/ostracam2FP.pdf";
+
+import sonosP from "./../../media/sonoscom_poster.pdf";
+import sonosIDR from "./../../media/SONOSIDR.pdf";
+import sonosCDR from "./../../media/SONOS2CDR.pdf";
+import sonosFP from "./../../media/sonoscomFP.pdf";
+
+import SPOTCDR from "./../../media/SPOTCDR.pdf";
+import tersiaScopeCDR from "./../../media/TiresiaScopeCDR.pdf";
+import deepVisionCDR from "./../../media/DeepVisionCDR.pdf";
+import wallECDR from "./../../media/WALLECDR.pdf";
+import gauchoHawkCDR from "./../../media/GauchoHawkCDR.pdf";
+import hoverHandCDR from "./../../media/HoverHandCDR.pdf";
+import hyperloop3CDR from "./../../media/Hyperloop3CDR.pdf";
+
 
 class ProjectItem extends Component {
   constructor() {
@@ -452,127 +492,162 @@ class ProjectItem extends Component {
       file: [{
       	name: "Overview Poster",
       	projectId: 0,
-      	link: "http://www.ece.ucsb.edu/Faculty/Johnson/ECE189/posters/flir_overview.pdf"
+      	link: flirOP
       },
       {
       	name: "Technical Poster",
       	projectId: 0,
-      	link: "http://www.ece.ucsb.edu/Faculty/Johnson/ECE189/posters/flir_technical.pdf"
+      	link: flirTP
       },
       {
       	name: "IDR",
       	projectId: 0,
-      	link: "http://www.ece.ucsb.edu/Faculty/Johnson/ECE189/IDR/FLIR.pdf"
+      	link: flirIDR
       },
       {
       	name: "CDR",
       	projectId: 0,
-      	link: "http://www.ece.ucsb.edu/Faculty/Johnson/ECE189/CDR/FLIRCDR.pdf"
+      	link: flirCDR
       },
       {
       	name: "Final Presentation",
       	projectId: 0,
-      	link: "http://www.ece.ucsb.edu/Faculty/Johnson/ECE189/final/flir.pdf"
+      	link: flirFP
       },
       {
       	name: "Poster",
       	projectId: 1,
-      	link: "http://www.ece.ucsb.edu/Faculty/Johnson/ECE189/posters/gestur.pdf"
+      	link: gesturP
       },
       {
       	name: "IDR",
       	projectId: 1,
-      	link: "http://www.ece.ucsb.edu/Faculty/Johnson/ECE189/IDR/Gestur.pdf"
+      	link: gesturIDR
       },
       {
       	name: "CDR",
       	projectId: 1,
-      	link: "http://www.ece.ucsb.edu/Faculty/Johnson/ECE189/CDR/GesturCDR.pdf"
+      	link: gesturCDR
       },
       {
       	name: "Final Presentation",
       	projectId: 1,
-      	link: "http://www.ece.ucsb.edu/Faculty/Johnson/ECE189/final/gestur.pdf"
+      	link: gesturFP
       },
       {
       	name: "Poster",
       	projectId: 2,
-      	link: "http://www.ece.ucsb.edu/Faculty/Johnson/ECE189/posters/hyperloop2.pdf"
+      	link: hyperloop2P
       },
       {
       	name: "IDR",
       	projectId: 2,
-      	link: "http://www.ece.ucsb.edu/Faculty/Johnson/ECE189/IDR/Hyperloop2.pdf"
+      	link: hyperloop2IDR
       },
       {
       	name: "CDR",
       	projectId: 2,
-      	link: "http://www.ece.ucsb.edu/Faculty/Johnson/ECE189/CDR/Hyperloop2CDR.pdf"
+      	link: hyperloop2CDR
       },
       {
       	name: "Final Presentation",
       	projectId: 2,
-      	link: "http://www.ece.ucsb.edu/Faculty/Johnson/ECE189/final/hyperloop2.pdf"
+      	link: hyperloop2FP
       },
       {
       	name: "Poster",
       	projectId: 3,
-      	link: "http://www.ece.ucsb.edu/Faculty/Johnson/ECE189/posters/irhub.pdf"
+      	link: irhubP
       },
       {
       	name: "IDR",
       	projectId: 3,
-      	link: "http://www.ece.ucsb.edu/Faculty/Johnson/ECE189/IDR/IRHub.pdf"
+      	link: irhubIDR
       },
       {
       	name: "CDR",
       	projectId: 3,
-      	link: "http://www.ece.ucsb.edu/Faculty/Johnson/ECE189/CDR/IRHubCDR.pdf"
+      	link: irhubCDR
       },
       {
       	name: "Final Presentation",
       	projectId: 3,
-      	link: "http://www.ece.ucsb.edu/Faculty/Johnson/ECE189/final/irhub.pdf"
+      	link: irhubFP
       },
       {
       	name: "Poster",
       	projectId: 4,
-      	link: "http://www.ece.ucsb.edu/Faculty/Johnson/ECE189/posters/ostracam2.pdf"
+      	link: ostracam2P
       },
       {
       	name: "IDR",
       	projectId: 4,
-      	link: "http://www.ece.ucsb.edu/Faculty/Johnson/ECE189/IDR/OstraCam2.pdf"
+      	link: ostracam2IDR
       },
       {
       	name: "CDR",
       	projectId: 4,
-      	link: "http://www.ece.ucsb.edu/Faculty/Johnson/ECE189/CDR/OstraCam2CDR.pdf"
+      	link: ostracam2CDR
       },
       {
       	name: "Final Presentation",
       	projectId: 4,
-      	link: "http://www.ece.ucsb.edu/Faculty/Johnson/ECE189/final/ostracam2.pdf"
+      	link: ostracam2FP
       },
       {
       	name: "Poster",
       	projectId: 5,
-      	link: "http://www.ece.ucsb.edu/Faculty/Johnson/ECE189/posters/sonoscom.pdf"
+      	link: sonosP
       },
       {
       	name: "IDR",
       	projectId: 5,
-      	link: "http://www.ece.ucsb.edu/Faculty/Johnson/ECE189/IDR/SONOS.pdf"
+      	link: sonosIDR
       },
       {
       	name: "CDR",
       	projectId: 5,
-      	link: "http://www.ece.ucsb.edu/Faculty/Johnson/ECE189/CDR/SONOS2CDR.pdf"
+      	link: sonosCDR
       },
       {
       	name: "Final Presentation",
       	projectId: 5,
-      	link: "http://www.ece.ucsb.edu/Faculty/Johnson/ECE189/final/sonoscom.pdf"
+      	link: sonosFP
+      },
+      {
+        name: "CDR",
+        projectId: 6,
+        link: SPOTCDR
+      },
+      {
+        name: "CDR",
+        projectId: 7,
+        link: tersiaScopeCDR
+      },
+      {
+        name: "CDR",
+        projectId: 8,
+        link: deepVisionCDR
+      },
+      {
+        name: "CDR",
+        projectId: 9,
+        link: wallECDR
+      },
+      {
+        name: "CDR",
+        projectId: 10,
+        link: gauchoHawkCDR
+      },
+      {
+        name: "CDR",
+        projectId: 11,
+        link: wallECDR
+      },
+      {
+        name: "CDR",
+        projectId: 12,
+        link: hyperloop3CDR
       },
       ]
     })

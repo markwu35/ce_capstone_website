@@ -45,14 +45,15 @@
 }
 
 .chip {
-	height: 45px;
-	line-height: 45px;
-	border-radius: 22px;
+	height: 70px;
+	line-height: 70px;
+	border-radius: 35px;
+	font-size: 16px;
 }
 
 .chip>img {
-	height: 45px;
-	width: 45px;
+	height: 70px;
+	width: 70px;
 }
 
 .chip {
