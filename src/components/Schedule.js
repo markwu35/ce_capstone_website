@@ -52,7 +52,7 @@ const Schedule = () => (
 		<div className="inline-grid">
 		<h6>Winter Quarter</h6>
 		<ul className="timeline">
-		  <li className="tl-item">
+		  <li className="tl-item margin_bottom">
 		    <div className="tl-icon"></div>
 		    <div className="tl-time"></div>
 		    <div className="tl-content">

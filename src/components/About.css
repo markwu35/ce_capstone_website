@@ -21,3 +21,11 @@
 .course_section .m6 {
 	text-align: center;
 }
+
+.carousel-pic {
+	max-height: 381px;
+}
+
+.btn {
+	text-transform: none;
+}

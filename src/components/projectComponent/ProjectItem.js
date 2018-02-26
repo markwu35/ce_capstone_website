@@ -678,8 +678,11 @@ class ProjectItem extends Component {
 			});
 		}
 
+    var idName = this.props.project.title;
+    idName = idName.replace(/ /g,"_");
+
     return (
-          <div className="card blue-grey darken-1">
+          <div className="card blue-grey darken-1 hoverable" id={idName}>
             <div className="card-image">
               <img className="card-img" src={this.props.project.imgName} />
               <span className="card-title">{this.props.project.title}</span>

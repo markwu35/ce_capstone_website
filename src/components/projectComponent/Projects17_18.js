@@ -1,13 +1,6 @@
 import React, { Component } from 'react';
 import ProjectItem from './ProjectItem';
 
-import hyperloopii from './../../img/hyperloopii.PNG';
-import flir from './../../img/flir.PNG';
-import gestur from './../../img/gestur.PNG';
-import ir_hub from './../../img/ir_hub.PNG';
-import ostracam from './../../img/ostracam.PNG';
-import sonos from './../../img/sonos.PNG';
-
 import spot from './../../img/spot.PNG';
 import tersiascope from './../../img/tersiascope.PNG';
 import deepvision from './../../img/deepvision.PNG';
@@ -40,14 +33,13 @@ class Projects17_18 extends Component {
         ]
       },
       {
-        title: 'TersiaScope',
-        projectId: 7,
-        imgName: tersiascope,
-        members: ["Ryan Kaveh",
-        "Kyle Carson",
-        "Jon Young"],
-        description: ["TiresiaScope’s main objective is to produce a headset for the blind, which will use ranging sensors to detect nearby objects around the user, and a surround-sound system to pinpoint the object’s locations to the user. Potentially, the headset will also feature a camera system connected by WiFi to a server to recognize and read aloud nearby signs.",
-        "A 360-degree array of ranging sensors will identify distances to nearby objects. Multiple sensor types, such as ultrasonic and infrared, will provide better coverage. The processor will map these nearby objects, and translate the map into binaural sound information. This sound information will identify direction using simulated surround-sound and distance using scaling musical notes. This information will be sent to the headphones."]
+        title: 'Hyperloop III',
+        projectId: 12,
+        imgName: hyperloop17,
+        members: ["Paul Killam",
+        "Christina Lim",
+        "Oliver Thio"],
+        description: "The hyperloop is a proposed advanced method of high-speed transportation between cities that are less than about 900 miles apart (e.g. Los Angeles and San Francisco). The system uses a capsule that is propelled through a low-pressure steel tube as it rests on frictionless air bearings or magnets. The Embedded Systems Team monitors the UCSB Hyperloop Pod’s physical metrics through an accurate sensor network and operates mechanical systems utilizing a web application and various actuators."
       },
       {
         title: 'Deep Vision',
@@ -93,14 +85,16 @@ class Projects17_18 extends Component {
         description: "The UCSB Hover Hand Team’s goal is to allow control of a quadcopter drone with the hand. Recording of the hand may result in a more intuitive and precise method of control over the common RC controller. The glove shall act as the transmitter to the drone’s receiver, relaying the chief flight controls. Recording hand movement in a way that allows the position and orientation to be accurately and meaningfully described is another important aspect to the glove’s operation. There are 6 key methods of motion control in a quadcopter’s flight: Forward/back, left/right, pitch (forward/back rotation), roll (left/right rotation), throttle, and yaw (horizontal rotation). These 6 types of movement must be mapped as hand movements or gestures in such a way that allows seamless control of the quadcopter. In  order to model hand movements and gestures, sensors must be placed on the fingers and on the top of the hand."
       },
       {
-        title: 'Hyperloop III',
-        projectId: 12,
-        imgName: hyperloop17,
-        members: ["Paul Killam",
-        "Christina Lim",
-        "Oliver Thio"],
-        description: "The hyperloop is a proposed advanced method of high-speed transportation between cities that are less than about 900 miles apart (e.g. Los Angeles and San Francisco). The system uses a capsule that is propelled through a low-pressure steel tube as it rests on frictionless air bearings or magnets. The Embedded Systems Team monitors the UCSB Hyperloop Pod’s physical metrics through an accurate sensor network and operates mechanical systems utilizing a web application and various actuators."
+        title: 'TersiaScope',
+        projectId: 7,
+        imgName: tersiascope,
+        members: ["Ryan Kaveh",
+        "Kyle Carson",
+        "Jon Young"],
+        description: ["TiresiaScope’s main objective is to produce a headset for the blind, which will use ranging sensors to detect nearby objects around the user, and a surround-sound system to pinpoint the object’s locations to the user. Potentially, the headset will also feature a camera system connected by WiFi to a server to recognize and read aloud nearby signs.",
+        "A 360-degree array of ranging sensors will identify distances to nearby objects. Multiple sensor types, such as ultrasonic and infrared, will provide better coverage. The processor will map these nearby objects, and translate the map into binaural sound information. This sound information will identify direction using simulated surround-sound and distance using scaling musical notes. This information will be sent to the headphones."]
       }
+
       ]})
   }
 

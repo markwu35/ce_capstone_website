@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 
-//import SimpleSlider from './SimpleSlider';
-
 //import img
 import header from './../img/header.jpg';
 import hyperloop2014 from './../img/hyperloop2014.jpg';
@@ -18,8 +16,11 @@ import av from './../img/av.png';
 import at from './../img/ai.png';
 
 import flir_carousel from './../img/flir_carousel.PNG';
-import hyperloop_carousel from './../img/hyperloop_carousel.jpg';
+import hyperloop_carousel from './../img/hyperloop2017.PNG';
 import ir_hub_carousel from './../img/ir_hub_carousel.PNG';
+import ostracam_carousel from './../img/ostracam.PNG';
+import gestur_carousel from './../img/gestur.PNG';
+import sonos_carousel from './../img/sonos.PNG';
 
 import "./About.css";
 
@@ -32,17 +33,41 @@ class About extends Component {
 		return (
 		<div>
 	  	<div className="carousel carousel-slider center" data-indicators="true">
-		    <div className="carousel-item red white-text" href="#one!">
-		      <img src={hyperloop_carousel} />
+		    <div className="carousel-item white-text" href="#one!">
+			    <div className="carousel-fixed-item center">
+			      <a href="/projects17_18#Hyperloop_III" className="btn waves-effect white black-text">More on UCSB Hyperloop</a>
+			    </div>
+		      <img className="carousel-pic" src={hyperloop_carousel} />
 		    </div>
-		    <div className="carousel-item amber white-text" href="#two!">
-		      <img src={flir_carousel} />
+		    <div className="carousel-item white-text" href="#two!">
+			    <div className="carousel-fixed-item center">
+			      <a href="/projects16_17#FLIR_Helios" className="btn waves-effect white black-text">More on FLIR Helios</a>
+			    </div>
+		      <img className="carousel-pic" src={flir_carousel} />
 		    </div>
-		    <div className="carousel-item green white-text" href="#three!">
-		      <img src={ir_hub_carousel} />
+		    <div className="carousel-item white-text" href="#three!">
+			    <div className="carousel-fixed-item center">
+			      <a href="/projects16_17#IR_Hub" className="btn waves-effect white black-text">More on IR Hub</a>
+			    </div>
+		      <img className="carousel-pic" src={ir_hub_carousel} />
 		    </div>
-		    <div className="carousel-item blue white-text" href="#four!">
-		      <img src={header} />
+		    <div className="carousel-item white-text" href="#four!">
+			    <div className="carousel-fixed-item center">
+			      <a href="/projects16_17#OstraCam_2" className="btn waves-effect white black-text">More on Ostra Cam</a>
+			    </div>
+		      <img className="carousel-pic" src={ostracam_carousel} />
+		    </div>
+		    <div className="carousel-item white-text" href="#five!">
+			    <div className="carousel-fixed-item center">
+			      <a href="/projects16_17#SONOS_COM." className="btn waves-effect white black-text">More on SONOS COM.</a>
+			    </div>
+		      <img className="carousel-pic" src={sonos_carousel} />
+		    </div>
+		    <div className="carousel-item white-text" href="#six!">
+			    <div className="carousel-fixed-item center">
+			      <a href="/projects16_17#Gestur" className="btn waves-effect white black-text">More on Gestur</a>
+			    </div>
+		      <img className="carousel-pic" src={gestur_carousel} />
 		    </div>
 		  </div>
 	    <div className="course_section">
@@ -65,8 +90,8 @@ class About extends Component {
 					</a></div>
 				</div>
 				<div className="row">
-					<div className="col m6"><a target="_blank" href="https://embeddedartists.com">
-						<img className="sponsor-img" src={EA} />
+					<div className="col m6"><a target="_blank" href="https://www.avinc.com">
+						<img className="sponsor-img" src={av} />
 					</a></div>
 					<div className="col m6"><a target="_blank" href="https://sunstone.com">
 						<img className="sponsor-img" src={sunstone} />
@@ -93,8 +118,8 @@ class About extends Component {
 					<div className="col m6"><a target="_blank" href="https://www.nvidia.com/page/home.html">
 						<img className="sponsor-img" src={nvidia} />
 					</a></div>
-					<div className="col m6"><a target="_blank" href="https://www.avinc.com">
-						<img className="sponsor-img" src={av} />
+					<div className="col m6"><a target="_blank" href="https://embeddedartists.com">
+						<img className="sponsor-img" src={EA} />
 					</a></div>
 				</div>
 				<div className="row">

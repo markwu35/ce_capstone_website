@@ -28,7 +28,7 @@ class Navbar extends Component {
 			      <a href="http://www.ece.ucsb.edu/" className="brand-logo black-text"><img className="nav-logo" src={logo} /></a>
 			      <a href="#" data-activates="mobile-demo" className="button-collapse black-text"><i className="fa fa-bars"></i></a>
 			      <ul id="nav-mobile" className="right hide-on-med-and-down">
-		      		<li><Link to="/" className="black-text">Home</Link></li>
+		      		<li><a href="/" className="black-text">Home</a></li>
 		      		<li><Link to="/schedule" className="black-text">Schedule</Link></li>
 		      		<li><a className="dropdown-button black-text" data-activates="dropdown1">Projects<i className="fa fa-caret-down"></i></a></li>
 			      </ul>

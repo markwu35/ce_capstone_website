@@ -54,7 +54,7 @@
   margin-top: 70px;
   border-right: 0;
   border-left: 10px solid #154879;
-  left: -10px;  
+  left: -11px;  
   margin-bottom: 0;
   clear: right;
 }
@@ -85,4 +85,8 @@ h4 {
 
 h6 {
   text-align: center;
+}
+
+.margin_bottom {
+  margin-bottom: 0px;
 }
