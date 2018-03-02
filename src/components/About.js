@@ -21,6 +21,11 @@ import ir_hub_carousel from './../img/ir_hub_carousel.PNG';
 import ostracam_carousel from './../img/ostracam.PNG';
 import gestur_carousel from './../img/gestur.PNG';
 import sonos_carousel from './../img/sonos.PNG';
+import spot_carousel from './../img/spot_logo.png';
+import deepVision_carousel from './../img/deepVision_logo.png';
+import gauchoHawk_carousel from './../img/gauchoHawk_logo.jpg';
+import wallE_carousel from './../img/wallE_logo.png';
+import hoverHand_carousel from './../img/hoverHand_logo.png';
 
 import "./About.css";
 
@@ -41,33 +46,57 @@ class About extends Component {
 		    </div>
 		    <div className="carousel-item white-text" href="#two!">
 			    <div className="carousel-fixed-item center">
-			      <a href="/projects16_17#FLIR_Helios" className="btn waves-effect white black-text">More on FLIR Helios</a>
+			      <a href="/projects17_18#SPOT" className="btn waves-effect white black-text">More on SPOT</a>
 			    </div>
-		      <img className="carousel-pic" src={flir_carousel} />
+		      <img className="carousel-pic" src={spot_carousel} />
 		    </div>
 		    <div className="carousel-item white-text" href="#three!">
 			    <div className="carousel-fixed-item center">
-			      <a href="/projects16_17#IR_Hub" className="btn waves-effect white black-text">More on IR Hub</a>
+			      <a href="/projects17_18#Deep_Vision" className="btn waves-effect white black-text">More on Deep Vision</a>
 			    </div>
-		      <img className="carousel-pic" src={ir_hub_carousel} />
+		      <img className="carousel-pic" src={deepVision_carousel} />
 		    </div>
 		    <div className="carousel-item white-text" href="#four!">
+			    <div className="carousel-fixed-item center">
+			      <a href="/projects17_18#Gaucho_Hawk" className="btn waves-effect white black-text">More on Gaucho Hawk</a>
+			    </div>
+		      <img className="carousel-pic" src={gauchoHawk_carousel} />
+		    </div>
+		    <div className="carousel-item white-text" href="#five!">
+			    <div className="carousel-fixed-item center">
+			      <a href="/projects17_18#Wall-E" className="btn waves-effect white black-text">More on Wall-E</a>
+			    </div>
+		      <img className="carousel-pic" src={wallE_carousel} />
+		    </div>
+		    <div className="carousel-item white-text" href="#six!">
+			    <div className="carousel-fixed-item center">
+			      <a href="/projects17_18#Hover_Hand" className="btn waves-effect white black-text">More on Hover Hand</a>
+			    </div>
+		      <img className="carousel-pic" src={hoverHand_carousel} />
+		    </div>
+		    <div className="carousel-item white-text" href="#seven!">
 			    <div className="carousel-fixed-item center">
 			      <a href="/projects16_17#OstraCam_2" className="btn waves-effect white black-text">More on Ostra Cam</a>
 			    </div>
 		      <img className="carousel-pic" src={ostracam_carousel} />
 		    </div>
-		    <div className="carousel-item white-text" href="#five!">
+		    <div className="carousel-item white-text" href="#eight!">
 			    <div className="carousel-fixed-item center">
 			      <a href="/projects16_17#SONOS_COM." className="btn waves-effect white black-text">More on SONOS COM.</a>
 			    </div>
 		      <img className="carousel-pic" src={sonos_carousel} />
 		    </div>
-		    <div className="carousel-item white-text" href="#six!">
+		    <div className="carousel-item white-text" href="#nine!">
 			    <div className="carousel-fixed-item center">
 			      <a href="/projects16_17#Gestur" className="btn waves-effect white black-text">More on Gestur</a>
 			    </div>
 		      <img className="carousel-pic" src={gestur_carousel} />
+		    </div>
+		    <div className="carousel-item white-text" href="#ten!">
+			    <div className="carousel-fixed-item center">
+			      <a href="/projects16_17#FLIR_Helios" className="btn waves-effect white black-text">More on FLIR Helios</a>
+			    </div>
+		      <img className="carousel-pic" src={flir_carousel} />
 		    </div>
 		  </div>
 	    <div className="course_section">
@@ -82,9 +111,10 @@ class About extends Component {
 			<div className="course_section">
 				<h5>Sponsors</h5>
 				<div className="row">
-					<div className="col m6"><a target="_blank" href="https://mentor.com">
-						<img className="sponsor-img" src={mentorGraphics} />
+					<div className="col m6"><a target="_blank" href="https://www.arvengtechnologies.com">
+						<img className="sponsor-img" src={at} />
 					</a></div>
+					
 					<div className="col m6"><a target="_blank" href="https://nxp.com">
 						<img className="sponsor-img" src={nxp} />
 					</a></div>
@@ -123,8 +153,8 @@ class About extends Component {
 					</a></div>
 				</div>
 				<div className="row">
-					<div className="col m6"><a target="_blank" href="https://www.arvengtechnologies.com">
-						<img className="sponsor-img" src={at} />
+					<div className="col m6"><a target="_blank" href="https://mentor.com">
+						<img className="sponsor-img" src={mentorGraphics} />
 					</a></div>
 				</div>
 
