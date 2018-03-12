@@ -111,25 +111,25 @@ class About extends Component {
 			<div className="course_section">
 				<h5>Sponsors</h5>
 				<div className="row">
-					<div className="col m6"><a target="_blank" href="https://www.arvengtechnologies.com">
-						<img className="sponsor-img" src={at} />
+					<div className="col m6"><a target="_blank" href="https://www.nvidia.com/page/home.html">
+						<img className="sponsor-img" src={nvidia} />
 					</a></div>
-					
-					<div className="col m6"><a target="_blank" href="https://nxp.com">
-						<img className="sponsor-img" src={nxp} />
+					<div className="col m6"><a target="_blank" href="https://www.nasa.gov">
+						<img className="sponsor-img" src={nasa} />
 					</a></div>
 				</div>
 				<div className="row">
 					<div className="col m6"><a target="_blank" href="https://www.avinc.com">
 						<img className="sponsor-img" src={av} />
 					</a></div>
-					<div className="col m6"><a target="_blank" href="https://sunstone.com">
-						<img className="sponsor-img" src={sunstone} />
+					
+					<div className="col m6"><a target="_blank" href="https://www.arvengtechnologies.com">
+						<img className="sponsor-img" src={at} />
 					</a></div>
 				</div>
 				<div className="row">
-					<div className="col m6"><a target="_blank" href="https://rprototypes.com">
-						<img className="sponsor-img" src={rp} />
+					<div className="col m6"><a target="_blank" href="https://mentor.com">
+						<img className="sponsor-img" src={mentorGraphics} />
 					</a></div>
 					<div className="col m6"><a target="_blank" href="https://laritech.com">
 						<img className="sponsor-img" src={laritech} />
@@ -137,24 +137,25 @@ class About extends Component {
 				</div>
 
 				<div className="row">
-					<div className="col m6"><a target="_blank" href="https://www.nasa.gov">
-						<img className="sponsor-img" src={nasa} />
+					<div className="col m6"><a target="_blank" href="https://sunstone.com">
+						<img className="sponsor-img" src={sunstone} />
 					</a></div>
 					<div className="col m6"><a target="_blank" href="https://www.dji.com">
 						<img className="sponsor-img" src={dji} />
 					</a></div>
 				</div>
 				<div className="row">
-					<div className="col m6"><a target="_blank" href="https://www.nvidia.com/page/home.html">
-						<img className="sponsor-img" src={nvidia} />
+					<div className="col m6"><a target="_blank" href="https://nxp.com">
+						<img className="sponsor-img" src={nxp} />
 					</a></div>
 					<div className="col m6"><a target="_blank" href="https://embeddedartists.com">
 						<img className="sponsor-img" src={EA} />
 					</a></div>
 				</div>
 				<div className="row">
-					<div className="col m6"><a target="_blank" href="https://mentor.com">
-						<img className="sponsor-img" src={mentorGraphics} />
+					
+					<div className="col m6"><a target="_blank" href="https://rprototypes.com">
+						<img className="sponsor-img" src={rp} />
 					</a></div>
 				</div>
 

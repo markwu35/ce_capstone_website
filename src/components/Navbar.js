@@ -10,13 +10,27 @@ class Navbar extends Component {
     return (
     	<div>
 	    	<ul id="dropdown1" className="dropdown-content">
+				  <li><a href="http://www.ce.ucsb.edu/undergrad/sr-projects/capstone17-album/index.html">16-17</a></li>
+				  <li className="divider"></li>
+				  <li><a href="http://www.ce.ucsb.edu/undergrad/sr-projects/capstone16-album/index.html">15-16</a></li>
+				  <li className="divider"></li>
+				  <li><a href="http://www.ce.ucsb.edu/undergrad/sr-projects/capstone15-album/index.html">14-15</a></li>
+				</ul>
+	    	<ul id="dropdown2" className="dropdown-content">
 				  <li><Link to="/Projects17_18">17-18</Link></li>
 				  <li className="divider"></li>
 				  <li><Link to="/Projects16_17">16-17</Link></li>
 				  <li className="divider"></li>
 				  <li><a href="http://www.ce.ucsb.edu/undergrad/sr-projects/event-2016/">15-16</a></li>
 				</ul>
-	    	<ul id="dropdown2" className="dropdown-content">
+				<ul id="dropdown3" className="dropdown-content">
+				  <li><a href="http://www.ce.ucsb.edu/undergrad/sr-projects/capstone17-album/index.html">16-17</a></li>
+				  <li className="divider"></li>
+				  <li><a href="http://www.ce.ucsb.edu/undergrad/sr-projects/capstone16-album/index.html">15-16</a></li>
+				  <li className="divider"></li>
+				  <li><a href="http://www.ce.ucsb.edu/undergrad/sr-projects/capstone15-album/index.html">14-15</a></li>
+				</ul>
+	    	<ul id="dropdown4" className="dropdown-content">
 				  <li><Link to="/Projects17_18">17-18</Link></li>
 				  <li className="divider"></li>
 				  <li><Link to="/Projects16_17">16-17</Link></li>
@@ -30,12 +44,14 @@ class Navbar extends Component {
 			      <ul id="nav-mobile" className="right hide-on-med-and-down">
 		      		<li><a href="/" className="black-text">Home</a></li>
 		      		<li><Link to="/schedule" className="black-text">Schedule</Link></li>
-		      		<li><a className="dropdown-button black-text" data-activates="dropdown1">Projects<i className="fa fa-caret-down"></i></a></li>
+		      		<li><a className="dropdown-button black-text" data-activates="dropdown1">Album<i className="fa fa-caret-down"></i></a></li>
+		      		<li><a className="dropdown-button black-text" data-activates="dropdown2">Projects<i className="fa fa-caret-down"></i></a></li>
 			      </ul>
 			      <ul className="side-nav" id="mobile-demo">
-		      		<li><Link to="/" className="black-text">Home</Link></li>
+		      		<li><a href="/" className="black-text">Home</a></li>
 		      		<li><Link to="/schedule" className="black-text">Schedule</Link></li>
-	      			<li><a className="dropdown-button black-text" data-activates="dropdown2">Projects<i className="fa fa-caret-down"></i></a></li>
+		      		<li><a className="dropdown-button black-text" data-activates="dropdown3">Album<i className="fa fa-caret-down"></i></a></li>
+	      			<li><a className="dropdown-button black-text" data-activates="dropdown4">Projects<i className="fa fa-caret-down"></i></a></li>
 			      </ul>
 			    </div>
 			  </nav>
